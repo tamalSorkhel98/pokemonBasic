@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+nav{
+    position: relative;
+    height: 10vh;
+    
+    padding: 5px;
+}
+
+
+.menu{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid rgb(162, 162, 162);
+    padding: 5px;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    
+    margin-top: 15px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.bright{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid rgb(162, 162, 162);
+    padding: 5px;
+}
+
+
+.container{
+    position: relative;
+    padding: 20px;
+}
+
+
+.search{
+    position: relative;
+    height: 60px;
+}
+
+
+.find{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid rgb(132, 132, 132);
+    border-radius: 10px;
+    padding: 5px;
+}
+.find input{
+   border: none;
+}
+
+.filter{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.filter select{
+    border-color: rgb(159, 159, 159);
+    padding: 5px;
+    border-radius: 10px;
+}
+.sorting{
+    display: inline-block;
+    margin-left: 5px;
+    border: 1px solid rgb(159, 159, 159);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cardBox{
+    position: relative;
+    margin-top: 10px;
+    height: 300px;
+}
+
+
+.card{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.c1{ left: 50px; }
+.c2{ left: 330px; }
+.c3{ left: 610px; }
+.c4{ left: 890px; }
+
+.card .l1{
+    position: relative;
+}
+.id{
+    position: absolute;
+    left: 0;
+}
+.heart{
+    position: absolute;
+    right: 0;
+}
+
+.card .l2{
+    height: 70%;
+}
+.card .l2 img{
+    height: 100%;
+    width: 100%;
+}
+.l3{
+    padding: 5px 0px;
+}
+
+
+.l4{
+    position: relative;
+}
+.powerType{
+    position: absolute;
+    left: 0;
+}
+.arrow{
+    position: absolute;
+    right: 0;
+}
+
+
+.c1{
+    box-shadow: 5px 5px 10px rgba(53, 228, 94, 0.458);
+}
+.c1 .powerType{
+    color: green;
+}
+.c2{
+    box-shadow: 5px 5px 10px rgb(92, 99, 105);
+}
+.c2 .powerType{
+    color: rgb(5, 12, 17);
+}
+.c3{
+    box-shadow: 5px 5px 10px rgb(255, 173, 173);
+}
+.c3 .powerType{
+    color: red;
+}
+.c4{
+    box-shadow: 5px 5px 10px rgb(166, 214, 255);
+}
+.c4 .powerType{
+    color: rgb(88, 177, 255);
+}
+footer{
+    position: relative;
+    height: 200px;
+    
+    width: 100%;
+    padding: 2rem 3rem;
+}
+footer .ftr{
+    display: flex;
+    gap: 10px;
+    width: 150px;
+    padding-right: 1.5rem;
+    border-right: 1px solid black;
+}
+.ftr span{
+    color: black;
+}
+.ftrlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(205, 205, 205, 0.825);
+    padding: 5px;
+    width: 100px;
+    height:47px;
+    border-radius: 50%;
+   
+}
+.ftr1{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    background-color: rgba(235, 235, 231, 0.962);
+    padding: 10px;
+    border-radius: 15px;
+}
+.extraDtlFtr p{
+    font-size: .8rem;
+   
+
+}
+.f1,.f3{
+    color: green;
+}
+.f2,.f4{
+    color: rgb(218, 218, 0);
+}
+.ftr2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
